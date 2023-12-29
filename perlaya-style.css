@@ -1,0 +1,172 @@
+
+body{
+    overflow-x: hidden;
+}
+
+#logo{
+    width: 150px;
+    height: 100px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+
+}
+.fixed{
+    background-color: gray;
+    justify-content: center;
+    position: fixed;
+    left: 25%;
+    top: 0px;
+    z-index: 100;    
+}
+.fixed:visited{
+    text-decoration: none;
+    }
+
+#text{
+    position: relative;
+    top: 0px;
+    left: 990px;
+}
+#search{
+    position: relative;
+    top: 8px;
+    left: 790px;
+}
+#accont{
+    position: relative;
+    top: 8px;
+    left: 970px;
+}
+#favorite{
+    position: relative;
+    top: 8px;
+    left: 980px;
+}
+#bag{
+    position: relative;
+    top: 8px;
+    left: 990px;
+}
+nav{
+    font-family: 'Varela Round', sans-serif;
+    list-style: none;
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+img{
+    height: 225px;
+    width: 225px;
+}
+
+h1{
+    font-size: 25px;
+    font-family: 'Varela Round', sans-serif;
+    position: relative;
+    top: 150px;
+  }
+
+main{  
+   border: 2px solid;
+   text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+#text1{
+    position: relative;
+    top: 160px;
+    left: 650px;
+    
+}
+button{
+    position: relative;
+    top: 200px;
+    left: 500px;
+}
+.cond{
+    position: relative;
+    top: 300px;
+    left: 250px;
+}
+div{
+    position: relative;
+    top: 400px;
+    left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    }
+.elm{
+    list-style-type: none;
+    position: relative;
+    top: 420px;
+    left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+   } 
+
+    .elm1{
+    list-style-type: none;
+    position: relative;
+    top: 500px;
+    left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    
+}
+#fb{
+    position: relative;
+    top: 590px;
+    left: 700px;
+    width: 30px;
+    height: 30px;
+}
+#inst{
+    position: relative;
+    top: 590px;
+    left: 700px;
+    width: 30px;
+    height: 30px;
+}
+section{
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px; 
+    column-gap: 15px;
+    grid-template-rows: 300px 300px;
+    grid-row-gap: 15px;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+}
+    
+.small{
+    height:30px;
+    width: 30px; 
+}  
+#tiktok{
+    position: relative;
+    top: 590px;
+    left: 700px;
+    width: 30px;
+    height: 30px; 
+}
+iframe{
+    position: relative;
+   top: 200px;
+    left: 30px;
+    width: 300px;
+    height: 300px;
+    align-content: center;
+}
